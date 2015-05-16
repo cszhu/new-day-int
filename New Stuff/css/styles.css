@@ -216,7 +216,9 @@ img.grayscale {
 }
 
 .carousel-control.left, .carousel-control.right {
-    background-color: #fff;
+    /*background-color: transparent;*/
+    background-image: none;
+    color: black;
 }
   
 

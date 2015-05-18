@@ -94,6 +94,7 @@ img.grayscale {
 
 .navbar-bold li a:hover, .navbar-bold li.active {
   background-color:#d46054;
+
 }
 
     
@@ -241,6 +242,11 @@ img.grayscale {
   padding-bottom: 5px !important;
 }
 
+.navbar li a:hover {
+  color: #FD1063;
+  background-color: #F06498; !important;
+}
+
 .navbar {
   min-height:40px !important;
 }
@@ -249,8 +255,8 @@ img.grayscale {
   float:right;
 }
 
-footer {
+/*footer {
   padding: 100px 0;
-}
+}*/
 
 /* -- end custom css for Bootstrap 3.x --*/

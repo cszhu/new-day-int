@@ -115,7 +115,7 @@ img.grayscale {
 
 .header {
   height: 80%;
-  background:F #ffffff
+  background: #ffffff;
 }
 
 /* use alt in navbar and header for different color */
@@ -140,7 +140,10 @@ img.grayscale {
   background-color:#FD1063;
 }
 
-
+.alt2 li a:hover, .alt2 li a:active {
+  background-color:#F06498;
+  color: #FD1063;
+}
 
 .blurb {
   padding: 120px 0;
@@ -222,10 +225,6 @@ img.grayscale {
     color: black;
 }
 
-.nav li a:hover, .nav li.active {
-  background-color: none;
-}
-
 #top-navbar .navbar-nav > li > a {
   height: 30px;
   padding-top: 5px !important; 
@@ -240,11 +239,6 @@ img.grayscale {
 .navbar-nav > li > a {
   padding-top: 5px !important; 
   padding-bottom: 5px !important;
-}
-
-.navbar li a:hover {
-  color: #FD1063;
-  background-color: #F06498; !important;
 }
 
 .navbar {

@@ -28,7 +28,7 @@ h1 {
 .newdaylogo {
   margin-left: 20px;
   margin-right: 20px;
-  max-width: 50px;
+  max-width: 90px;
   height: auto;
 }
 
@@ -220,7 +220,34 @@ img.grayscale {
     background-image: none;
     color: black;
 }
-  
+
+.nav li a:hover, .nav li.active {
+  background-color: none;
+}
+
+#top-navbar .navbar-nav > li > a {
+  height: 30px;
+  padding-top: 5px !important; 
+  padding-bottom:0 !important;
+  margin-top: 5px; 
+}
+
+#top-navbar .navbar { 
+  min-height: 30px !important;
+}
+
+.navbar-nav > li > a {
+  padding-top: 5px !important; 
+  padding-bottom: 5px !important;
+}
+
+.navbar {
+  min-height:40px !important;
+}
+
+.navbar-right-side {
+  float:right;
+}
 
 footer {
   padding: 100px 0;
